@@ -27,7 +27,7 @@ class Library:
 
     def check_out_book(self, title):
         for book in self._books:
-        if book.title == title:
+            if book.title == title:
                 if book.check_out():
                     print(f'You have successfully checked out "{title}".')
                     return
