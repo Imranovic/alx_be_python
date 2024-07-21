@@ -18,7 +18,6 @@ class Book:
 
     def is_available(self):
         return not self._is_checked_out
-
 class Library:
     def __init__(self):
         self._books = []
